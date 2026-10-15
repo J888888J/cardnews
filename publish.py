@@ -28,6 +28,10 @@ START = datetime.date(2026, 10, 13)      # 1일차 = 카페
 LAST = 30
 
 
+class ApiError(Exception):
+    pass
+
+
 def log(m):
     print(f"{datetime.datetime.now(JST):%Y-%m-%d %H:%M}  {m}", flush=True)
 
@@ -44,7 +48,7 @@ def call(path, params=None, post=False):
         with urllib.request.urlopen(req) as r:
             return json.loads(r.read())
     except urllib.error.HTTPError as e:
-        sys.exit(f"API 에러 {e.code}: {e.read().decode()[:400]}")
+        raise ApiError(f"API 에러 {e.code}: {e.read().decode()[:400]}")
 
 
 def wait_ready(cid, timeout=600):
@@ -54,9 +58,30 @@ def wait_ready(cid, timeout=600):
         if st == "FINISHED":
             return
         if st == "ERROR":
-            sys.exit(f"컨테이너 처리 실패: {cid}")
+            raise ApiError(f"컨테이너 처리 실패: {cid}")
         time.sleep(5)
-    sys.exit("타임아웃")
+    raise ApiError("타임아웃")
+
+
+def make_carousel(files, caption, video):
+    """캐러셀 컨테이너까지만 만든다(발행은 따로). 영상이면 항목마다 VIDEO 컨테이너."""
+    children = []
+    for n in files:
+        url = f"{RAW}/cards/{urllib.parse.quote(n)}"
+        if video:
+            r = call(f"{USER}/media", {"media_type": "VIDEO", "video_url": url,
+                                       "is_carousel_item": "true"}, post=True)
+        else:
+            r = call(f"{USER}/media", {"image_url": url, "is_carousel_item": "true"},
+                     post=True)
+        children.append(r["id"])
+    for c in children:
+        wait_ready(c, timeout=900 if video else 600)
+    r = call(f"{USER}/media",
+             {"media_type": "CAROUSEL", "children": ",".join(children),
+              "caption": caption}, post=True)
+    wait_ready(r["id"])
+    return r["id"]
 
 
 def main(dry=False):
@@ -71,32 +96,31 @@ def main(dry=False):
 
     names = sorted(n for n in os.listdir(os.path.join(HERE, "cards"))
                    if n.startswith(f"d{day:02d}_insta_") and n.endswith(".png"))
+    vids = sorted(n for n in os.listdir(os.path.join(HERE, "cards"))
+                  if n.startswith(f"d{day:02d}_insta_") and n.endswith(".mp4"))
     cap_path = os.path.join(HERE, "captions", f"d{day:02d}_인스타.txt")
     if not names or not os.path.exists(cap_path):
         log(f"{day}일차 자료 없음 — 이미지 {len(names)}장")
         return
     caption = open(cap_path, encoding="utf-8").read().strip()
+    # 영상은 장수가 이미지와 같을 때만 쓴다(일부만 있으면 정지 이미지)
+    use_video = len(vids) == len(names) and len(vids) >= 2
 
-    log(f"{day}일차 · {len(names)}장 · {caption.splitlines()[0]}")
+    log(f"{day}일차 · {len(names)}장 · {'영상' if use_video else '이미지'} · {caption.splitlines()[0]}")
     if dry:
-        for n in names:
+        for n in (vids if use_video else names):
             print("  ", f"{RAW}/cards/{urllib.parse.quote(n)}")
         return
 
-    children = []
-    for n in names:
-        url = f"{RAW}/cards/{urllib.parse.quote(n)}"
-        r = call(f"{USER}/media", {"image_url": url, "is_carousel_item": "true"},
-                 post=True)
-        children.append(r["id"])
-    for c in children:
-        wait_ready(c)
-
-    r = call(f"{USER}/media",
-             {"media_type": "CAROUSEL", "children": ",".join(children),
-              "caption": caption}, post=True)
-    wait_ready(r["id"])
-    pub = call(f"{USER}/media_publish", {"creation_id": r["id"]}, post=True)
+    cid = None
+    if use_video:
+        try:
+            cid = make_carousel(vids, caption, video=True)
+        except ApiError as e:
+            log(f"영상 캐러셀 준비 실패, 정지 이미지로 올린다: {e}")
+    if cid is None:
+        cid = make_carousel(names, caption, video=False)
+    pub = call(f"{USER}/media_publish", {"creation_id": cid}, post=True)   # 발행은 한 번만
     link = call(pub["id"], {"fields": "permalink"}).get("permalink", "")
     log(f"{day}일차 발행 완료 {link}")
 
