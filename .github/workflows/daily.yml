@@ -2,8 +2,12 @@ name: 카드뉴스 인스타 발행
 
 on:
   schedule:
-    # 일본 12:30 = UTC 03:30
-    - cron: "30 3 * * *"
+    # 일본 12:30 = UTC 03:30. 깃허브 정기 실행은 정각·30분에 몰려 몇 시간씩 밀리므로
+    # 어중간한 분으로 여러 번 건다. done.json / threads_done.json 이 중복 발행을 막는다
+    - cron: "17 3 * * *"
+    - cron: "41 3 * * *"
+    - cron: "13 4 * * *"
+    - cron: "47 4 * * *"
   workflow_dispatch:        # 손으로도 돌릴 수 있게
 
 permissions:
