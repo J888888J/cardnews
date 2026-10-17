@@ -19,15 +19,19 @@ jobs:
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
           RAW_BASE: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}
         run: python3 publish.py
 
       - name: 기록 저장
+        if: always()
         run: |
-          if [ -n "$(git status --porcelain done.json)" ]; then
+          touch threads_done.json
+          if [ -n "$(git status --porcelain done.json threads_done.json)" ]; then
             git config user.name  "github-actions"
             git config user.email "github-actions@users.noreply.github.com"
-            git add done.json
+            git add done.json threads_done.json
             git commit -m "발행 기록"
             git push
           fi
