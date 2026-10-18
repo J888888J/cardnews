@@ -1,0 +1,103 @@
+[
+ {
+  "type": "iro",
+  "dark": true,
+  "layout": "balance",
+  "font": "/Users/joo/Library/Fonts/GenEiMGothic2-Black.ttf",
+  "text_sizes": [
+   170,
+   170,
+   130
+  ],
+  "line_colors": [
+   [
+    253,
+    133,
+    5
+   ],
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  "bg": [
+   [
+    20,
+    18,
+    16
+   ],
+   [
+    20,
+    18,
+    16
+   ]
+  ],
+  "bg_style": "solid",
+  "fg": [
+   255,
+   255,
+   255
+  ],
+  "accent": [
+   253,
+   133,
+   5
+  ],
+  "logo": false,
+  "line_gap": 1.08,
+  "pad": 110,
+  "bottom": 110,
+  "stamp_h": 500,
+  "stamp_outline": 0,
+  "day": 25,
+  "topic": "ホテルの部屋に問題がある時に使う韓国語",
+  "hook": [
+   "ホテル",
+   "で困った時に",
+   "使う韓国語"
+  ],
+  "stamp": "/Users/joo/cardnews-repo/drafts/covers/stamp/hotel.png",
+  "end": [
+   "一番使いそうなのは",
+   "どれ？"
+  ],
+  "endsub": "番号でコメントしてね",
+  "stamp_force_h": 640,
+  "cards": [
+   {
+    "ko": "뜨거운 물이 안 나와요",
+    "yomi": "ットゥゴウン ムリ アン ナワヨ",
+    "mean": "お湯が出ません",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "에어컨이 안 돼요",
+    "yomi": "エオコニ アン ドェヨ",
+    "mean": "エアコンがつきません",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "방을 바꿔 주실 수 있어요?",
+    "yomi": "パンウル パックォ ジュシル ッス イッソヨ",
+    "mean": "部屋を替えてもらえますか？",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "체크아웃 늦게 해도 돼요?",
+    "yomi": "チェクアウッ ヌッケ ヘド ドェヨ",
+    "mean": "チェックアウトを遅くしてもいいですか？",
+    "dark": true,
+    "ghost": "logo"
+   }
+  ]
+ }
+]

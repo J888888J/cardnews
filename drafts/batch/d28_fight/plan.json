@@ -1,0 +1,103 @@
+[
+ {
+  "type": "iro",
+  "dark": true,
+  "layout": "balance",
+  "font": "/Users/joo/Library/Fonts/GenEiMGothic2-Black.ttf",
+  "text_sizes": [
+   170,
+   170,
+   130
+  ],
+  "line_colors": [
+   [
+    253,
+    133,
+    5
+   ],
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  "bg": [
+   [
+    20,
+    18,
+    16
+   ],
+   [
+    20,
+    18,
+    16
+   ]
+  ],
+  "bg_style": "solid",
+  "fg": [
+   255,
+   255,
+   255
+  ],
+  "accent": [
+   253,
+   133,
+   5
+  ],
+  "logo": false,
+  "line_gap": 1.08,
+  "pad": 110,
+  "bottom": 110,
+  "stamp_h": 500,
+  "stamp_outline": 0,
+  "day": 28,
+  "topic": "友達とケンカした時に使う韓国語",
+  "hook": [
+   "ケンカ",
+   "した時に",
+   "使う韓国語"
+  ],
+  "stamp": "/Users/joo/cardnews-repo/drafts/covers/stamp/fight.png",
+  "end": [
+   "あなたなら",
+   "最初に何て言う？"
+  ],
+  "endsub": "番号でコメントしてね",
+  "stamp_force_h": 640,
+  "cards": [
+   {
+    "ko": "왜 그래?",
+    "yomi": "ウェ グレ",
+    "mean": "なんなの？",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "서운해",
+    "yomi": "ソウネ",
+    "mean": "がっかりした",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "내가 미안해",
+    "yomi": "ネガ ミアネ",
+    "mean": "私が悪かった",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "우리 화해하자",
+    "yomi": "ウリ ファヘハジャ",
+    "mean": "仲直りしよう",
+    "dark": true,
+    "ghost": "logo"
+   }
+  ]
+ }
+]

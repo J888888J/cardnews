@@ -1,0 +1,103 @@
+[
+ {
+  "type": "iro",
+  "dark": true,
+  "layout": "balance",
+  "font": "/Users/joo/Library/Fonts/GenEiMGothic2-Black.ttf",
+  "text_sizes": [
+   170,
+   170,
+   130
+  ],
+  "line_colors": [
+   [
+    253,
+    133,
+    5
+   ],
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  "bg": [
+   [
+    20,
+    18,
+    16
+   ],
+   [
+    20,
+    18,
+    16
+   ]
+  ],
+  "bg_style": "solid",
+  "fg": [
+   255,
+   255,
+   255
+  ],
+  "accent": [
+   253,
+   133,
+   5
+  ],
+  "logo": false,
+  "line_gap": 1.08,
+  "pad": 110,
+  "bottom": 110,
+  "stamp_h": 500,
+  "stamp_outline": 0,
+  "day": 27,
+  "topic": "市場で値切る時に使う韓国語",
+  "hook": [
+   "値切る",
+   "時に",
+   "使う韓国語"
+  ],
+  "stamp": "/Users/joo/cardnews-repo/drafts/covers/stamp/market.png",
+  "end": [
+   "あなたなら",
+   "どれで値切る？"
+  ],
+  "endsub": "番号でコメントしてね",
+  "stamp_force_h": 520,
+  "cards": [
+   {
+    "ko": "좀 깎아 주세요",
+    "yomi": "チョム ッカッカ ジュセヨ",
+    "mean": "ちょっと安くしてください",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "두 개 사면 더 싸게 돼요?",
+    "yomi": "トゥ ゲ サミョン ト ッサゲ ドェヨ",
+    "mean": "2つ買ったら安くなりますか？",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "현금으로 하면요?",
+    "yomi": "ヒョングムロ ハミョニョ",
+    "mean": "現金だったら？",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "그럼 다음에 올게요",
+    "yomi": "クロム タウメ オルッケヨ",
+    "mean": "じゃあまた来ます",
+    "dark": true,
+    "ghost": "logo"
+   }
+  ]
+ }
+]

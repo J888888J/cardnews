@@ -1,0 +1,103 @@
+[
+ {
+  "type": "iro",
+  "dark": true,
+  "layout": "balance",
+  "font": "/Users/joo/Library/Fonts/GenEiMGothic2-Black.ttf",
+  "text_sizes": [
+   170,
+   170,
+   130
+  ],
+  "line_colors": [
+   [
+    253,
+    133,
+    5
+   ],
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  "bg": [
+   [
+    20,
+    18,
+    16
+   ],
+   [
+    20,
+    18,
+    16
+   ]
+  ],
+  "bg_style": "solid",
+  "fg": [
+   255,
+   255,
+   255
+  ],
+  "accent": [
+   253,
+   133,
+   5
+  ],
+  "logo": false,
+  "line_gap": 1.08,
+  "pad": 110,
+  "bottom": 110,
+  "stamp_h": 500,
+  "stamp_outline": 0,
+  "day": 30,
+  "topic": "推しにファンレターを書く時に使う韓国語",
+  "hook": [
+   "ファンレター",
+   "に書く",
+   "韓国語"
+  ],
+  "stamp": "/Users/joo/cardnews-repo/drafts/covers/stamp/fanletter.png",
+  "end": [
+   "あなたなら",
+   "何て書く？"
+  ],
+  "endsub": "番号でコメントしてね",
+  "stamp_force_h": 625,
+  "cards": [
+   {
+    "ko": "처음으로 편지를 써요",
+    "yomi": "チョウムロ ピョンジルル ッソヨ",
+    "mean": "初めて手紙を書きます",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "덕분에 힘이 났어요",
+    "yomi": "トップネ ヒミ ナッソヨ",
+    "mean": "おかげで元気が出ました",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "언젠가 꼭 만나요",
+    "yomi": "オンジェンガ ッコク マンナヨ",
+    "mean": "いつか必ず会いましょう",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "건강 챙기세요",
+    "yomi": "コンガン チェンギセヨ",
+    "mean": "体に気をつけてください",
+    "dark": true,
+    "ghost": "logo"
+   }
+  ]
+ }
+]

@@ -1,0 +1,103 @@
+[
+ {
+  "type": "iro",
+  "dark": true,
+  "layout": "balance",
+  "font": "/Users/joo/Library/Fonts/GenEiMGothic2-Black.ttf",
+  "text_sizes": [
+   170,
+   170,
+   130
+  ],
+  "line_colors": [
+   [
+    253,
+    133,
+    5
+   ],
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  "bg": [
+   [
+    20,
+    18,
+    16
+   ],
+   [
+    20,
+    18,
+    16
+   ]
+  ],
+  "bg_style": "solid",
+  "fg": [
+   255,
+   255,
+   255
+  ],
+  "accent": [
+   253,
+   133,
+   5
+  ],
+  "logo": false,
+  "line_gap": 1.08,
+  "pad": 110,
+  "bottom": 110,
+  "stamp_h": 500,
+  "stamp_outline": 0,
+  "day": 26,
+  "topic": "推しが結婚を発表した時に使う韓国語",
+  "hook": [
+   "推しの結婚",
+   "発表の時に",
+   "使う韓国語"
+  ],
+  "stamp": "/Users/joo/cardnews-repo/drafts/covers/stamp/marriage.png",
+  "end": [
+   "あなたなら",
+   "何て言う？"
+  ],
+  "endsub": "番号でコメントしてね",
+  "stamp_force_h": 610,
+  "cards": [
+   {
+    "ko": "거짓말이지?",
+    "yomi": "コジンマリジ",
+    "mean": "嘘でしょ？",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "축하는 하는데…",
+    "yomi": "チュカヌン ハヌンデ",
+    "mean": "おめでたいけど…",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "마음이 복잡해",
+    "yomi": "マウミ ポクチャペ",
+    "mean": "気持ちが複雑",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "그래도 응원할게",
+    "yomi": "クレド ウンウォナルッケ",
+    "mean": "それでも応援するよ",
+    "dark": true,
+    "ghost": "logo"
+   }
+  ]
+ }
+]

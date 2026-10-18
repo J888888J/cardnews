@@ -1,0 +1,103 @@
+[
+ {
+  "type": "iro",
+  "dark": true,
+  "layout": "balance",
+  "font": "/Users/joo/Library/Fonts/GenEiMGothic2-Black.ttf",
+  "text_sizes": [
+   170,
+   170,
+   130
+  ],
+  "line_colors": [
+   [
+    253,
+    133,
+    5
+   ],
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  "bg": [
+   [
+    20,
+    18,
+    16
+   ],
+   [
+    20,
+    18,
+    16
+   ]
+  ],
+  "bg_style": "solid",
+  "fg": [
+   255,
+   255,
+   255
+  ],
+  "accent": [
+   253,
+   133,
+   5
+  ],
+  "logo": false,
+  "line_gap": 1.08,
+  "pad": 110,
+  "bottom": 110,
+  "stamp_h": 500,
+  "stamp_outline": 0,
+  "day": 21,
+  "topic": "酔った友達に使う韓国語",
+  "hook": [
+   "酔った友達",
+   "に使う",
+   "韓国語"
+  ],
+  "stamp": "/Users/joo/cardnews-repo/drafts/covers/stamp/drunk.png",
+  "end": [
+   "あなたが",
+   "よく言うのは？"
+  ],
+  "endsub": "番号でコメントしてね",
+  "stamp_force_h": 574,
+  "cards": [
+   {
+    "ko": "너 취했어",
+    "yomi": "ノ チュィヘッソ",
+    "mean": "酔ってるよ",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "그만 마셔",
+    "yomi": "クマン マショ",
+    "mean": "もう飲むのやめて",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "집에 가자",
+    "yomi": "チベ カジャ",
+    "mean": "家に帰ろう",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "내일 기억 안 날걸",
+    "yomi": "ネイル キオク アン ナルッコル",
+    "mean": "明日覚えてないよ",
+    "dark": true,
+    "ghost": "logo"
+   }
+  ]
+ }
+]

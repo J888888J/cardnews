@@ -1,0 +1,48 @@
+[
+ {
+  "day": 4,
+  "type": "iro",
+  "topic": "韓国で突然、推しに会ったら",
+  "hook": [
+   "韓国で突然、",
+   "推しに会ったら？"
+  ],
+  "cards": [
+   {
+    "ko": "헐",
+    "yomi": "ホル",
+    "mean": "えっ！",
+    "ghost": "logo",
+    "dark": true
+   },
+   {
+    "ko": "대박",
+    "yomi": "テバク",
+    "mean": "すごい！",
+    "ghost": "logo",
+    "dark": true
+   },
+   {
+    "ko": "꿈이야 생시야?",
+    "yomi": "ックミヤ センシヤ",
+    "mean": "夢？現実？",
+    "ghost": "logo",
+    "dark": true
+   },
+   {
+    "ko": "심장 터질 것 같아",
+    "yomi": "シムジャン トジル ッコッ ッカタ",
+    "mean": "心臓が破裂しそう",
+    "ghost": "logo",
+    "dark": true
+   }
+  ],
+  "end": [
+   "あなたなら",
+   "最初に何て言う？"
+  ],
+  "endsub": "番号でコメントしてね",
+  "dark": true,
+  "bg_image": "/Users/joo/cardnews-repo/drafts/series1_ep1_iro/img/concert_b.png"
+ }
+]

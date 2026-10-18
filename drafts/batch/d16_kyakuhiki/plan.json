@@ -1,0 +1,103 @@
+[
+ {
+  "type": "iro",
+  "dark": true,
+  "layout": "balance",
+  "font": "/Users/joo/Library/Fonts/GenEiMGothic2-Black.ttf",
+  "text_sizes": [
+   170,
+   170,
+   130
+  ],
+  "line_colors": [
+   [
+    253,
+    133,
+    5
+   ],
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  "bg": [
+   [
+    20,
+    18,
+    16
+   ],
+   [
+    20,
+    18,
+    16
+   ]
+  ],
+  "bg_style": "solid",
+  "fg": [
+   255,
+   255,
+   255
+  ],
+  "accent": [
+   253,
+   133,
+   5
+  ],
+  "logo": false,
+  "line_gap": 1.08,
+  "pad": 110,
+  "bottom": 110,
+  "stamp_h": 500,
+  "stamp_outline": 0,
+  "day": 16,
+  "topic": "客引きにつかまった時に使う韓国語",
+  "hook": [
+   "客引き",
+   "につかまった時に",
+   "使う韓国語"
+  ],
+  "stamp": "/Users/joo/cardnews-repo/drafts/covers/stamp/kyakuhiki.png",
+  "end": [
+   "あなたなら",
+   "どう断る？"
+  ],
+  "endsub": "番号でコメントしてね",
+  "cards": [
+   {
+    "ko": "괜찮아요",
+    "yomi": "クェンチャナヨ",
+    "mean": "大丈夫です（結構です）",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "그냥 구경만 할게요",
+    "yomi": "クニャン クギョンマン ハルッケヨ",
+    "mean": "見てるだけです",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "시간이 없어요",
+    "yomi": "シガニ オプソヨ",
+    "mean": "時間がないんです",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "이미 샀어요",
+    "yomi": "イミ サッソヨ",
+    "mean": "もう買いました",
+    "dark": true,
+    "ghost": "logo"
+   }
+  ],
+  "stamp_force_h": 600
+ }
+]

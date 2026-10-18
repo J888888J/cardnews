@@ -1,0 +1,103 @@
+[
+ {
+  "type": "iro",
+  "dark": true,
+  "layout": "balance",
+  "font": "/Users/joo/Library/Fonts/GenEiMGothic2-Black.ttf",
+  "text_sizes": [
+   170,
+   170,
+   130
+  ],
+  "line_colors": [
+   [
+    253,
+    133,
+    5
+   ],
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  "bg": [
+   [
+    20,
+    18,
+    16
+   ],
+   [
+    20,
+    18,
+    16
+   ]
+  ],
+  "bg_style": "solid",
+  "fg": [
+   255,
+   255,
+   255
+  ],
+  "accent": [
+   253,
+   133,
+   5
+  ],
+  "logo": false,
+  "line_gap": 1.08,
+  "pad": 110,
+  "bottom": 110,
+  "stamp_h": 500,
+  "stamp_outline": 0,
+  "day": 22,
+  "topic": "推しの誕生日に使う韓国語",
+  "hook": [
+   "推しの誕生日",
+   "に使う",
+   "韓国語"
+  ],
+  "stamp": "/Users/joo/cardnews-repo/drafts/covers/stamp/birthday.png",
+  "end": [
+   "あなたなら",
+   "何て伝える？"
+  ],
+  "endsub": "番号でコメントしてね",
+  "stamp_force_h": 566,
+  "cards": [
+   {
+    "ko": "생일 축하해요",
+    "yomi": "センイル チュカヘヨ",
+    "mean": "お誕生日おめでとう",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "태어나 줘서 고마워요",
+    "yomi": "テオナ ジュォソ コマウォヨ",
+    "mean": "生まれてきてくれてありがとう",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "앞으로도 꽃길만 걸어요",
+    "yomi": "アプロド ッコッキルマン コロヨ",
+    "mean": "これからも花道だけを歩いてね",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "평생 함께해요",
+    "yomi": "ピョンセン ハムッケヘヨ",
+    "mean": "一生一緒にいようね",
+    "dark": true,
+    "ghost": "logo"
+   }
+  ]
+ }
+]

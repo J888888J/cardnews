@@ -1,0 +1,103 @@
+[
+ {
+  "type": "iro",
+  "dark": true,
+  "layout": "balance",
+  "font": "/Users/joo/Library/Fonts/GenEiMGothic2-Black.ttf",
+  "text_sizes": [
+   170,
+   170,
+   130
+  ],
+  "line_colors": [
+   [
+    253,
+    133,
+    5
+   ],
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  "bg": [
+   [
+    20,
+    18,
+    16
+   ],
+   [
+    20,
+    18,
+    16
+   ]
+  ],
+  "bg_style": "solid",
+  "fg": [
+   255,
+   255,
+   255
+  ],
+  "accent": [
+   253,
+   133,
+   5
+  ],
+  "logo": false,
+  "line_gap": 1.08,
+  "pad": 110,
+  "bottom": 110,
+  "stamp_h": 500,
+  "stamp_outline": 0,
+  "day": 23,
+  "topic": "カフェで注文を間違えられた時に使う韓国語",
+  "hook": [
+   "注文",
+   "を間違えられた時に",
+   "使う韓国語"
+  ],
+  "stamp": "/Users/joo/cardnews-repo/drafts/covers/stamp/cafe_wrong.png",
+  "end": [
+   "一番使いそうなのは",
+   "どれ？"
+  ],
+  "endsub": "番号でコメントしてね",
+  "stamp_force_h": 535,
+  "cards": [
+   {
+    "ko": "이거 제가 시킨 게 아니에요",
+    "yomi": "イゴ チェガ シキン ゲ アニエヨ",
+    "mean": "これ、私が頼んだものじゃないです",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "아이스로 시켰는데요",
+    "yomi": "アイスロ シキョンヌンデヨ",
+    "mean": "アイスで頼んだんですけど",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "다시 만들어 주실 수 있어요?",
+    "yomi": "タシ マンドゥロ ジュシル ッス イッソヨ",
+    "mean": "作り直してもらえますか？",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "여기 영수증이요",
+    "yomi": "ヨギ ヨンスジュンイヨ",
+    "mean": "レシートはこちらです",
+    "dark": true,
+    "ghost": "logo"
+   }
+  ]
+ }
+]

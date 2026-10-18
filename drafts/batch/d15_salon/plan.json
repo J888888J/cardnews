@@ -1,0 +1,104 @@
+[
+ {
+  "type": "iro",
+  "dark": true,
+  "layout": "balance",
+  "font": "/Users/joo/Library/Fonts/GenEiMGothic2-Black.ttf",
+  "text_sizes": [
+   170,
+   170,
+   130
+  ],
+  "line_colors": [
+   [
+    253,
+    133,
+    5
+   ],
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  "bg": [
+   [
+    20,
+    18,
+    16
+   ],
+   [
+    20,
+    18,
+    16
+   ]
+  ],
+  "bg_style": "solid",
+  "fg": [
+   255,
+   255,
+   255
+  ],
+  "accent": [
+   253,
+   133,
+   5
+  ],
+  "logo": false,
+  "line_gap": 1.08,
+  "pad": 110,
+  "bottom": 110,
+  "stamp_h": 500,
+  "stamp_outline": 0,
+  "day": 15,
+  "topic": "美容室で使う韓国語",
+  "hook": [
+   "美容室",
+   "で使う",
+   "韓国語"
+  ],
+  "stamp": "/Users/joo/cardnews-repo/drafts/covers/stamp/salon.png",
+  "end": [
+   "一番使いそうなのは",
+   "どれ？"
+  ],
+  "endsub": "番号でコメントしてね",
+  "cards": [
+   {
+    "ko": "다듬어 주세요",
+    "yomi": "タドゥモ ジュセヨ",
+    "mean": "整えてください",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "너무 짧게는 말고요",
+    "yomi": "ノム ッチャルッケヌン マルゴヨ",
+    "mean": "短くしすぎないでください",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "앞머리 잘라 주세요",
+    "yomi": "アムモリ チャルラ ジュセヨ",
+    "mean": "前髪を切ってください",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "이 사진처럼 해 주세요",
+    "yomi": "イ サジンチョロム ヘ ジュセヨ",
+    "mean": "この写真みたいにしてください",
+    "dark": true,
+    "ghost": "logo"
+   }
+  ],
+  "stamp_force_h": 640,
+  "stamp_dy": 50
+ }
+]

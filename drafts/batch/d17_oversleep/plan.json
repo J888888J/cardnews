@@ -1,0 +1,103 @@
+[
+ {
+  "type": "iro",
+  "dark": true,
+  "layout": "balance",
+  "font": "/Users/joo/Library/Fonts/GenEiMGothic2-Black.ttf",
+  "text_sizes": [
+   170,
+   170,
+   130
+  ],
+  "line_colors": [
+   [
+    253,
+    133,
+    5
+   ],
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  "bg": [
+   [
+    20,
+    18,
+    16
+   ],
+   [
+    20,
+    18,
+    16
+   ]
+  ],
+  "bg_style": "solid",
+  "fg": [
+   255,
+   255,
+   255
+  ],
+  "accent": [
+   253,
+   133,
+   5
+  ],
+  "logo": false,
+  "line_gap": 1.08,
+  "pad": 110,
+  "bottom": 110,
+  "stamp_h": 500,
+  "stamp_outline": 0,
+  "day": 17,
+  "topic": "寝坊した時に使う韓国語",
+  "hook": [
+   "寝坊",
+   "した時に",
+   "使う韓国語"
+  ],
+  "stamp": "/Users/joo/cardnews-repo/drafts/covers/stamp/oversleep.png",
+  "end": [
+   "あなたが",
+   "よく言うのは？"
+  ],
+  "endsub": "番号でコメントしてね",
+  "cards": [
+   {
+    "ko": "망했다",
+    "yomi": "マンヘッタ",
+    "mean": "終わった…",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "알람이 안 울렸어",
+    "yomi": "アルラミ アン ウルリョッソ",
+    "mean": "アラームが鳴らなかった",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "지금 가고 있어",
+    "yomi": "チグム カゴ イッソ",
+    "mean": "今向かってる（本当はまだ家…）",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "5분만 더",
+    "yomi": "オブンマン ト",
+    "mean": "あと5分だけ",
+    "dark": true,
+    "ghost": "logo"
+   }
+  ],
+  "stamp_force_h": 600
+ }
+]

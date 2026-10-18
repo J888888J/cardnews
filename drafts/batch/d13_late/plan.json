@@ -1,0 +1,103 @@
+[
+ {
+  "type": "iro",
+  "dark": true,
+  "layout": "balance",
+  "font": "/Users/joo/Library/Fonts/GenEiMGothic2-Black.ttf",
+  "text_sizes": [
+   170,
+   170,
+   130
+  ],
+  "line_colors": [
+   [
+    253,
+    133,
+    5
+   ],
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  "bg": [
+   [
+    20,
+    18,
+    16
+   ],
+   [
+    20,
+    18,
+    16
+   ]
+  ],
+  "bg_style": "solid",
+  "fg": [
+   255,
+   255,
+   255
+  ],
+  "accent": [
+   253,
+   133,
+   5
+  ],
+  "logo": false,
+  "line_gap": 1.08,
+  "pad": 110,
+  "bottom": 110,
+  "stamp_h": 500,
+  "stamp_outline": 0,
+  "day": 13,
+  "topic": "友達が遅刻した時に使う韓国語",
+  "hook": [
+   "友達",
+   "が遅刻した時に",
+   "使う韓国語"
+  ],
+  "stamp": "/Users/joo/cardnews-repo/drafts/covers/stamp/late.png",
+  "end": [
+   "あなたなら",
+   "何て言う？"
+  ],
+  "endsub": "番号でコメントしてね",
+  "cards": [
+   {
+    "ko": "어디야?",
+    "yomi": "オディヤ",
+    "mean": "どこ？",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "또 늦었어?",
+    "yomi": "ット ヌジョッソ",
+    "mean": "また遅れたの？",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "어이없어",
+    "yomi": "オイオプソ",
+    "mean": "あきれた",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "밥 사",
+    "yomi": "パプ サ",
+    "mean": "ご飯おごってね",
+    "dark": true,
+    "ghost": "logo"
+   }
+  ],
+  "stamp_force_h": 624
+ }
+]

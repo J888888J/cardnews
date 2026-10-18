@@ -1,0 +1,102 @@
+[
+ {
+  "type": "iro",
+  "dark": true,
+  "layout": "balance",
+  "font": "/Users/joo/Library/Fonts/GenEiMGothic2-Black.ttf",
+  "text_sizes": [
+   110,
+   250,
+   170
+  ],
+  "line_colors": [
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    253,
+    133,
+    5
+   ],
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  "bg": [
+   [
+    20,
+    18,
+    16
+   ],
+   [
+    20,
+    18,
+    16
+   ]
+  ],
+  "bg_style": "solid",
+  "fg": [
+   255,
+   255,
+   255
+  ],
+  "accent": [
+   253,
+   133,
+   5
+  ],
+  "logo": false,
+  "line_gap": 1.0,
+  "pad": 110,
+  "bottom": 110,
+  "stamp_h": 500,
+  "stamp_outline": 0,
+  "day": 5,
+  "topic": "推しに会った瞬間、体に起きること",
+  "hook": [
+   "推しに会った瞬間、",
+   "体に",
+   "起きること"
+  ],
+  "stamp": "/Users/joo/cardnews-repo/drafts/covers/stamp/body.png",
+  "end": [
+   "あなたは",
+   "どれになりそう？"
+  ],
+  "endsub": "番号でコメントしてね",
+  "cards": [
+   {
+    "ko": "다리가 떨려",
+    "yomi": "タリガ ットルリョ",
+    "mean": "足が震える",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "말이 안 나와",
+    "yomi": "マリ アン ナワ",
+    "mean": "言葉が出ない",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "눈물 나",
+    "yomi": "ヌンムル ナ",
+    "mean": "涙が出る",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "소름 돋아",
+    "yomi": "ソルム トダ",
+    "mean": "鳥肌が立つ",
+    "dark": true,
+    "ghost": "logo"
+   }
+  ]
+ }
+]

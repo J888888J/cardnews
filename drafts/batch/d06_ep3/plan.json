@@ -1,0 +1,103 @@
+[
+ {
+  "type": "iro",
+  "dark": true,
+  "layout": "balance",
+  "font": "/Users/joo/Library/Fonts/GenEiMGothic2-Black.ttf",
+  "text_sizes": [
+   170,
+   170,
+   130
+  ],
+  "line_colors": [
+   [
+    253,
+    133,
+    5
+   ],
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  "bg": [
+   [
+    20,
+    18,
+    16
+   ],
+   [
+    20,
+    18,
+    16
+   ]
+  ],
+  "bg_style": "solid",
+  "fg": [
+   255,
+   255,
+   255
+  ],
+  "accent": [
+   253,
+   133,
+   5
+  ],
+  "logo": false,
+  "line_gap": 1.08,
+  "pad": 110,
+  "bottom": 110,
+  "stamp_h": 500,
+  "stamp_outline": 0,
+  "day": 6,
+  "topic": "推しに会えた時に伝える韓国語",
+  "hook": [
+   "推し",
+   "に会えた時に",
+   "伝える韓国語"
+  ],
+  "stamp": "/Users/joo/cardnews-repo/drafts/covers/stamp/message.png",
+  "end": [
+   "あなたなら",
+   "何て伝える？"
+  ],
+  "endsub": "番号でコメントしてね",
+  "cards": [
+   {
+    "ko": "팬이에요",
+    "yomi": "ペニエヨ",
+    "mean": "ファンです",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "항상 응원하고 있어요",
+    "yomi": "ハンサン ウンウォナゴ イッソヨ",
+    "mean": "いつも応援しています",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "사진 찍어도 돼요?",
+    "yomi": "サジン ッチゴド ドェヨ",
+    "mean": "写真を撮ってもいいですか？",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "악수해도 돼요?",
+    "yomi": "アクスヘド ドェヨ",
+    "mean": "握手してもいいですか？",
+    "dark": true,
+    "ghost": "logo"
+   }
+  ],
+  "stamp_force_h": 627
+ }
+]

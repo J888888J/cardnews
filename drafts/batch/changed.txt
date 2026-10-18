@@ -1,0 +1,12 @@
+d06_ep3
+d07_tteokbokki
+d08_subway
+d12_taxi
+d13_late
+d14_ghost
+d15_salon
+d16_kyakuhiki
+d17_oversleep
+d18_lost
+d19_confess
+d20_airport

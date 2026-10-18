@@ -1,0 +1,103 @@
+[
+ {
+  "type": "iro",
+  "dark": true,
+  "layout": "balance",
+  "font": "/Users/joo/Library/Fonts/GenEiMGothic2-Black.ttf",
+  "text_sizes": [
+   170,
+   170,
+   130
+  ],
+  "line_colors": [
+   [
+    253,
+    133,
+    5
+   ],
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  "bg": [
+   [
+    20,
+    18,
+    16
+   ],
+   [
+    20,
+    18,
+    16
+   ]
+  ],
+  "bg_style": "solid",
+  "fg": [
+   255,
+   255,
+   255
+  ],
+  "accent": [
+   253,
+   133,
+   5
+  ],
+  "logo": false,
+  "line_gap": 1.08,
+  "pad": 110,
+  "bottom": 110,
+  "stamp_h": 500,
+  "stamp_outline": 0,
+  "day": 29,
+  "topic": "スマホの電池が切れそうな時に使う韓国語",
+  "hook": [
+   "スマホの電池",
+   "が切れそうな時に",
+   "使う韓国語"
+  ],
+  "stamp": "/Users/joo/cardnews-repo/drafts/covers/stamp/battery.png",
+  "end": [
+   "一番使いそうなのは",
+   "どれ？"
+  ],
+  "endsub": "番号でコメントしてね",
+  "stamp_force_h": 640,
+  "cards": [
+   {
+    "ko": "배터리가 다 됐어요",
+    "yomi": "ペトリガ タ ドェッソヨ",
+    "mean": "バッテリーが切れました",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "충전 좀 할 수 있을까요?",
+    "yomi": "チュンジョン チョム ハル ッス イッスルッカヨ",
+    "mean": "充電させてもらえますか？",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "충전기 빌려 주실 수 있어요?",
+    "yomi": "チュンジョンギ ピルリョ ジュシル ッス イッソヨ",
+    "mean": "充電器を貸してもらえますか？",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "와이파이 비밀번호가 뭐예요?",
+    "yomi": "ワイパイ ピミルボノガ ムォエヨ",
+    "mean": "Wi-Fiのパスワードは何ですか？",
+    "dark": true,
+    "ghost": "logo"
+   }
+  ]
+ }
+]

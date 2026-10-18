@@ -1,0 +1,103 @@
+[
+ {
+  "type": "iro",
+  "dark": true,
+  "layout": "balance",
+  "font": "/Users/joo/Library/Fonts/GenEiMGothic2-Black.ttf",
+  "text_sizes": [
+   170,
+   170,
+   130
+  ],
+  "line_colors": [
+   [
+    253,
+    133,
+    5
+   ],
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  "bg": [
+   [
+    20,
+    18,
+    16
+   ],
+   [
+    20,
+    18,
+    16
+   ]
+  ],
+  "bg_style": "solid",
+  "fg": [
+   255,
+   255,
+   255
+  ],
+  "accent": [
+   253,
+   133,
+   5
+  ],
+  "logo": false,
+  "line_gap": 1.08,
+  "pad": 110,
+  "bottom": 110,
+  "stamp_h": 500,
+  "stamp_outline": 0,
+  "day": 14,
+  "topic": "幽霊を見た時に使う韓国語",
+  "hook": [
+   "幽霊",
+   "を見た時に",
+   "使う韓国語"
+  ],
+  "stamp": "/Users/joo/cardnews-repo/drafts/covers/stamp/ghost.png",
+  "end": [
+   "あなたなら",
+   "最初に何て言う？"
+  ],
+  "endsub": "番号でコメントしてね",
+  "cards": [
+   {
+    "ko": "엄마야!",
+    "yomi": "オンマヤ",
+    "mean": "きゃっ！（驚いた時の声）",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "귀신이다",
+    "yomi": "クィシニダ",
+    "mean": "幽霊だ！",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "저리 가",
+    "yomi": "チョリ ガ",
+    "mean": "あっち行って",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "나 혼자 두지 마",
+    "yomi": "ナ ホンジャ トゥジ マ",
+    "mean": "一人にしないで",
+    "dark": true,
+    "ghost": "logo"
+   }
+  ],
+  "stamp_force_h": 642
+ }
+]

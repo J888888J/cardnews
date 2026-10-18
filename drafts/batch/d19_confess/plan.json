@@ -1,0 +1,103 @@
+[
+ {
+  "type": "iro",
+  "dark": true,
+  "layout": "balance",
+  "font": "/Users/joo/Library/Fonts/GenEiMGothic2-Black.ttf",
+  "text_sizes": [
+   170,
+   170,
+   130
+  ],
+  "line_colors": [
+   [
+    253,
+    133,
+    5
+   ],
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  "bg": [
+   [
+    20,
+    18,
+    16
+   ],
+   [
+    20,
+    18,
+    16
+   ]
+  ],
+  "bg_style": "solid",
+  "fg": [
+   255,
+   255,
+   255
+  ],
+  "accent": [
+   253,
+   133,
+   5
+  ],
+  "logo": false,
+  "line_gap": 1.08,
+  "pad": 110,
+  "bottom": 110,
+  "stamp_h": 500,
+  "stamp_outline": 0,
+  "day": 19,
+  "topic": "告白する時に使う韓国語",
+  "hook": [
+   "告白",
+   "する時に",
+   "使う韓国語"
+  ],
+  "stamp": "/Users/joo/cardnews-repo/drafts/covers/stamp/confess.png",
+  "end": [
+   "あなたなら",
+   "どれで告白する？"
+  ],
+  "endsub": "番号でコメントしてね",
+  "stamp_force_h": 640,
+  "cards": [
+   {
+    "ko": "할 말 있어",
+    "yomi": "ハル マル イッソ",
+    "mean": "話があるの",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "너 좋아해",
+    "yomi": "ノ チョアヘ",
+    "mean": "あなたが好き",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "나랑 사귈래?",
+    "yomi": "ナラン サグィルレ",
+    "mean": "付き合ってくれる？",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "대답은 천천히 해도 돼",
+    "yomi": "テダブン チョンチョニ ヘド ドェ",
+    "mean": "返事はゆっくりでいいよ",
+    "dark": true,
+    "ghost": "logo"
+   }
+  ]
+ }
+]

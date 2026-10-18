@@ -1,0 +1,103 @@
+[
+ {
+  "type": "iro",
+  "dark": true,
+  "layout": "balance",
+  "font": "/Users/joo/Library/Fonts/GenEiMGothic2-Black.ttf",
+  "text_sizes": [
+   170,
+   170,
+   130
+  ],
+  "line_colors": [
+   [
+    253,
+    133,
+    5
+   ],
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  "bg": [
+   [
+    20,
+    18,
+    16
+   ],
+   [
+    20,
+    18,
+    16
+   ]
+  ],
+  "bg_style": "solid",
+  "fg": [
+   255,
+   255,
+   255
+  ],
+  "accent": [
+   253,
+   133,
+   5
+  ],
+  "logo": false,
+  "line_gap": 1.08,
+  "pad": 110,
+  "bottom": 110,
+  "stamp_h": 500,
+  "stamp_outline": 0,
+  "day": 20,
+  "topic": "空港で荷物が出てこない時に使う韓国語",
+  "hook": [
+   "荷物",
+   "が出てこない時に",
+   "使う韓国語"
+  ],
+  "stamp": "/Users/joo/cardnews-repo/drafts/covers/stamp/airport.png",
+  "end": [
+   "一番使いそうなのは",
+   "どれ？"
+  ],
+  "endsub": "番号でコメントしてね",
+  "stamp_force_h": 640,
+  "cards": [
+   {
+    "ko": "제 짐이 안 나왔어요",
+    "yomi": "チェ チミ アン ナワッソヨ",
+    "mean": "私の荷物が出てきません",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "어디로 가면 돼요?",
+    "yomi": "オディロ カミョン ドェヨ",
+    "mean": "どこに行けばいいですか？",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "연락처 여기 있어요",
+    "yomi": "ヨルラクチョ ヨギ イッソヨ",
+    "mean": "連絡先はこちらです",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "호텔로 보내 주세요",
+    "yomi": "ホテルロ ポネ ジュセヨ",
+    "mean": "ホテルに送ってください",
+    "dark": true,
+    "ghost": "logo"
+   }
+  ]
+ }
+]
