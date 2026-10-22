@@ -56,11 +56,11 @@
   "stamp_h": 500,
   "stamp_outline": 0,
   "day": 12,
-  "topic": "タクシーで遠回りされた時に使う韓国語",
+  "topic": "タクシーで使う韓国語",
   "hook": [
    "タクシー",
-   "で遠回りされた時に",
-   "使う韓国語"
+   "で使う",
+   "韓国語"
   ],
   "stamp": "/Users/joo/cardnews-repo/drafts/covers/stamp/taxi.png",
   "end": [
@@ -70,9 +70,16 @@
   "endsub": "番号でコメントしてね",
   "cards": [
    {
-    "ko": "이 길 맞아요?",
-    "yomi": "イ ギル マジャヨ",
-    "mean": "この道で合ってますか？",
+    "ko": "여기로 가 주세요",
+    "yomi": "ヨギロ カ ジュセヨ",
+    "mean": "ここに行ってください",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "일본에서 왔어요",
+    "yomi": "イルボネソ ワッソヨ",
+    "mean": "日本から来ました",
     "dark": true,
     "ghost": "logo"
    },

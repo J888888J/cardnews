@@ -71,30 +71,30 @@
   "stamp_force_h": 640,
   "cards": [
    {
+    "ko": "어디 갔지?",
+    "yomi": "オディ カッチ",
+    "mean": "どこ行った？",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "설마!",
+    "yomi": "ソルマ",
+    "mean": "まさか！",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
+    "ko": "이게 내 건가?",
+    "yomi": "イゲ ネ ッコンガ",
+    "mean": "これ、私のかな？",
+    "dark": true,
+    "ghost": "logo"
+   },
+   {
     "ko": "제 짐이 안 나왔어요",
     "yomi": "チェ チミ アン ナワッソヨ",
     "mean": "私の荷物が出てきません",
-    "dark": true,
-    "ghost": "logo"
-   },
-   {
-    "ko": "어디로 가면 돼요?",
-    "yomi": "オディロ カミョン ドェヨ",
-    "mean": "どこに行けばいいですか？",
-    "dark": true,
-    "ghost": "logo"
-   },
-   {
-    "ko": "연락처 여기 있어요",
-    "yomi": "ヨルラクチョ ヨギ イッソヨ",
-    "mean": "連絡先はこちらです",
-    "dark": true,
-    "ghost": "logo"
-   },
-   {
-    "ko": "호텔로 보내 주세요",
-    "yomi": "ホテルロ ポネ ジュセヨ",
-    "mean": "ホテルに送ってください",
     "dark": true,
     "ghost": "logo"
    }
