@@ -5,9 +5,9 @@
   "layout": "balance",
   "font": "/Users/joo/Library/Fonts/GenEiMGothic2-Black.ttf",
   "text_sizes": [
-   170,
-   170,
-   130
+   286,
+   122,
+   122
   ],
   "line_colors": [
    [
@@ -58,8 +58,8 @@
   "day": 20,
   "topic": "空港で荷物が出てこない時に使う韓国語",
   "hook": [
-   "荷物",
-   "が出てこない時に",
+   "荷物が",
+   "出てこない時に",
    "使う韓国語"
   ],
   "stamp": "/Users/joo/cardnews-repo/drafts/covers/stamp/airport.png",

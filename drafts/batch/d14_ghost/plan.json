@@ -5,8 +5,8 @@
   "layout": "balance",
   "font": "/Users/joo/Library/Fonts/GenEiMGothic2-Black.ttf",
   "text_sizes": [
-   170,
-   170,
+   286,
+   150,
    130
   ],
   "line_colors": [
@@ -58,8 +58,8 @@
   "day": 14,
   "topic": "幽霊を見た時に使う韓国語",
   "hook": [
-   "幽霊",
-   "を見た時に",
+   "幽霊を",
+   "見た時に",
    "使う韓国語"
   ],
   "stamp": "/Users/joo/cardnews-repo/drafts/covers/stamp/ghost.png",

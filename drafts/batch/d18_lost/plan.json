@@ -5,9 +5,9 @@
   "layout": "balance",
   "font": "/Users/joo/Library/Fonts/GenEiMGothic2-Black.ttf",
   "text_sizes": [
-   170,
-   170,
-   130
+   172,
+   129,
+   129
   ],
   "line_colors": [
    [
@@ -59,8 +59,8 @@
   "topic": "道に迷った時に使う韓国語",
   "hook": [
    "道に迷った",
-   "時に",
-   "使う韓国語"
+   "時に使う",
+   "韓国語"
   ],
   "stamp": "/Users/joo/cardnews-repo/drafts/covers/stamp/lost.png",
   "end": [

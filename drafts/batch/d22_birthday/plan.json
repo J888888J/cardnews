@@ -5,9 +5,9 @@
   "layout": "balance",
   "font": "/Users/joo/Library/Fonts/GenEiMGothic2-Black.ttf",
   "text_sizes": [
-   170,
-   170,
-   130
+   200,
+   200,
+   122
   ],
   "line_colors": [
    [
@@ -16,9 +16,9 @@
     5
    ],
    [
-    255,
-    255,
-    255
+    253,
+    133,
+    5
    ],
    [
     255,
@@ -50,7 +50,7 @@
    5
   ],
   "logo": false,
-  "line_gap": 1.08,
+  "line_gap": 1.04,
   "pad": 110,
   "bottom": 110,
   "stamp_h": 500,
@@ -58,9 +58,9 @@
   "day": 22,
   "topic": "推しの誕生日に使う韓国語",
   "hook": [
-   "推しの誕生日",
-   "に使う",
-   "韓国語"
+   "推しの",
+   "誕生日に",
+   "使う韓国語"
   ],
   "stamp": "/Users/joo/cardnews-repo/drafts/covers/stamp/birthday.png",
   "end": [
@@ -98,6 +98,7 @@
     "dark": true,
     "ghost": "logo"
    }
-  ]
+  ],
+  "stamp_top": 40
  }
 ]

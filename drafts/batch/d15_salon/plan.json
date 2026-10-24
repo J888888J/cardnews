@@ -5,20 +5,14 @@
   "layout": "balance",
   "font": "/Users/joo/Library/Fonts/GenEiMGothic2-Black.ttf",
   "text_sizes": [
-   170,
-   170,
-   130
+   214,
+   150
   ],
   "line_colors": [
    [
     253,
     133,
     5
-   ],
-   [
-    255,
-    255,
-    255
    ],
    [
     255,
@@ -58,9 +52,8 @@
   "day": 15,
   "topic": "美容室で使う韓国語",
   "hook": [
-   "美容室",
-   "で使う",
-   "韓国語"
+   "美容室で",
+   "使う韓国語"
   ],
   "stamp": "/Users/joo/cardnews-repo/drafts/covers/stamp/salon.png",
   "end": [

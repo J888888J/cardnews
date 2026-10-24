@@ -5,20 +5,14 @@
   "layout": "balance",
   "font": "/Users/joo/Library/Fonts/GenEiMGothic2-Black.ttf",
   "text_sizes": [
-   170,
-   170,
-   130
+   172,
+   129
   ],
   "line_colors": [
    [
     253,
     133,
     5
-   ],
-   [
-    255,
-    255,
-    255
    ],
    [
     255,
@@ -58,9 +52,8 @@
   "day": 12,
   "topic": "タクシーで使う韓国語",
   "hook": [
-   "タクシー",
-   "で使う",
-   "韓国語"
+   "タクシーで",
+   "使う韓国語"
   ],
   "stamp": "/Users/joo/cardnews-repo/drafts/covers/stamp/taxi.png",
   "end": [
