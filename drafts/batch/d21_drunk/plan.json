@@ -5,9 +5,9 @@
   "layout": "balance",
   "font": "/Users/joo/Library/Fonts/GenEiMGothic2-Black.ttf",
   "text_sizes": [
-   200,
-   200,
-   122
+   180,
+   180,
+   110
   ],
   "line_colors": [
    [
@@ -50,9 +50,9 @@
    5
   ],
   "logo": false,
-  "line_gap": 1.04,
+  "line_gap": 1.15,
   "pad": 110,
-  "bottom": 110,
+  "bottom": 150,
   "stamp_h": 500,
   "stamp_outline": 0,
   "day": 21,
@@ -68,7 +68,7 @@
    "よく言うのは？"
   ],
   "endsub": "番号でコメントしてね",
-  "stamp_force_h": 574,
+  "stamp_force_h": 520,
   "cards": [
    {
     "ko": "너 취했어",

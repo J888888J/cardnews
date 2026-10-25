@@ -5,9 +5,9 @@
   "layout": "balance",
   "font": "/Users/joo/Library/Fonts/GenEiMGothic2-Black.ttf",
   "text_sizes": [
-   214,
-   122,
-   122
+   200,
+   120,
+   120
   ],
   "line_colors": [
    [
@@ -50,9 +50,9 @@
    5
   ],
   "logo": false,
-  "line_gap": 1.08,
+  "line_gap": 1.15,
   "pad": 110,
-  "bottom": 110,
+  "bottom": 150,
   "stamp_h": 500,
   "stamp_outline": 0,
   "day": 16,
@@ -98,6 +98,6 @@
     "ghost": "logo"
    }
   ],
-  "stamp_force_h": 600
+  "stamp_force_h": 520
  }
 ]
