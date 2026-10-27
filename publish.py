@@ -36,8 +36,8 @@ JST = datetime.timezone(datetime.timedelta(hours=9))
 START = datetime.date(2026, 10, 13)      # 1일차 = 카페
 LAST = 30
 
-IG_CTA = "韓国語、一人で躓いている方へ\n仲間と一緒に続けていきましょう👇"
-TH_CTA = "韓国語、一人で躓いている方へ\n仲間と一緒に続けていきましょう👇\nhttps://lp.muwi-life.com/"
+IG_CTA = "韓国語、一人で躓いている方へ\n韓国ソーシャルサロン「muwi」で\n仲間と一緒に続けていきましょう👇\nプロフィールのリンクからチェックしてみてください☺️"
+TH_CTA = "韓国語、一人で躓いている方へ\n韓国ソーシャルサロン「muwi」で\n仲間と一緒に続けていきましょう👇\nhttps://lp.muwi-life.com/"
 
 
 class ApiError(Exception):
