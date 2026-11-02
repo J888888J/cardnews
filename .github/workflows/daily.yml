@@ -9,6 +9,11 @@ on:
     - cron: "13 4 * * *"
     - cron: "47 4 * * *"
   workflow_dispatch:        # 손으로도 돌릴 수 있게
+    inputs:
+      day:
+        description: "밀린 날을 올릴 때 일차 (비우면 오늘)"
+        required: false
+        default: ""
 
 permissions:
   contents: write           # done.json 을 저장소에 다시 쓴다
@@ -25,6 +30,7 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          DAY: ${{ inputs.day }}
           RAW_BASE: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}
         run: python3 publish.py
 

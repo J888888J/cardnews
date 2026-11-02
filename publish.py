@@ -189,6 +189,8 @@ def post_threads(day, names, vids, caption, use_video):
 # ── 실행 ─────────────────────────────────────────────────────────
 def main(dry=False):
     day = (datetime.datetime.now(JST).date() - START).days + 1
+    if os.environ.get("DAY"):            # 밀린 날을 따로 올릴 때 (workflow_dispatch 의 day 입력)
+        day = int(os.environ["DAY"])
     if not 1 <= day <= LAST:
         log(f"올릴 날 아님 ({day}일차)")
         return 0
