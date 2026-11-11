@@ -188,10 +188,18 @@ def post_threads(day, names, vids, caption, use_video):
 
 # ── 실행 ─────────────────────────────────────────────────────────
 def main(dry=False):
-    day = (datetime.datetime.now(JST).date() - START).days + 1
+    today = datetime.datetime.now(JST).date()
+    day = (today - START).days + 1
+    # 월수금처럼 날짜를 골라 올릴 때: schedule.json {"2026-11-13": 33}
+    sched_path = os.path.join(HERE, "schedule.json")
+    sched = json.load(open(sched_path, encoding="utf-8")) if os.path.exists(sched_path) else {}
+    scheduled = today.isoformat() in sched
+    if scheduled:
+        day = int(sched[today.isoformat()])
     if os.environ.get("DAY"):            # 밀린 날을 따로 올릴 때 (workflow_dispatch 의 day 입력)
         day = int(os.environ["DAY"])
-    if not 1 <= day <= LAST:
+        scheduled = True
+    if not scheduled and not 1 <= day <= LAST:
         log(f"올릴 날 아님 ({day}일차)")
         return 0
 
