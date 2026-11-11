@@ -34,7 +34,7 @@ DONE = os.path.join(HERE, "done.json")
 TH_DONE = os.path.join(HERE, "threads_done.json")
 JST = datetime.timezone(datetime.timedelta(hours=9))
 START = datetime.date(2026, 10, 13)      # 1일차 = 카페
-LAST = 30
+LAST = 31
 
 IG_CTA = "韓国語、一人で躓いている方へ\n韓国ソーシャルサロン「muwi」で\n仲間と一緒に続けていきましょう👇\nプロフィールのリンクからチェックしてみてください☺️"
 TH_CTA = "韓国語、一人で躓いている方へ\n韓国ソーシャルサロン「muwi」で\n仲間と一緒に続けていきましょう👇\nhttps://lp.muwi-life.com/"
@@ -96,11 +96,11 @@ def wait_ready(cid, timeout=600):
 
 
 def make_carousel(files, caption, video):
-    """캐러셀 컨테이너까지만 만든다(발행은 따로). 영상이면 항목마다 VIDEO 컨테이너."""
+    """캐러셀 컨테이너까지만 만든다(발행은 따로). .mp4 항목은 VIDEO 컨테이너(사진과 섞을 수 있다)."""
     children = []
     for n in files:
         url = f"{RAW}/cards/{urllib.parse.quote(n)}"
-        if video:
+        if n.endswith(".mp4"):
             r = call(f"{USER}/media", {"media_type": "VIDEO", "video_url": url,
                                        "is_carousel_item": "true"}, post=True)
         else:
@@ -108,7 +108,7 @@ def make_carousel(files, caption, video):
                      post=True)
         children.append(r["id"])
     for c in children:
-        wait_ready(c, timeout=900 if video else 600)
+        wait_ready(c, timeout=900 if video else 600)   # video = 영상이 하나라도 섞임
     r = call(f"{USER}/media",
              {"media_type": "CAROUSEL", "children": ",".join(children),
               "caption": caption}, post=True)
@@ -159,7 +159,7 @@ def th_carousel(files, text, video):
     for n in files:
         url = f"{RAW}/cards/{urllib.parse.quote(n)}"
         p = {"is_carousel_item": "true"}
-        p.update({"media_type": "VIDEO", "video_url": url} if video
+        p.update({"media_type": "VIDEO", "video_url": url} if n.endswith(".mp4")
                  else {"media_type": "IMAGE", "image_url": url})
         children.append(th_call(f"{TH_USER}/threads", p, post=True)["id"])
     for c in children:
@@ -204,8 +204,10 @@ def main(dry=False):
         log(f"{day}일차 자료 없음 — 이미지 {len(names)}장")
         return 0
     caption = open(cap_path, encoding="utf-8").read().strip()
-    # 영상은 장수가 이미지와 같을 때만 쓴다(일부만 있으면 정지 이미지)
-    use_video = len(vids) == len(names) and len(vids) >= 2
+    # 같은 이름의 .mp4 가 있는 장만 영상으로 바꾼다(예: 마지막 CTA 장만 움직임).
+    # 영상 준비가 실패하면 전부 정지 이미지로 올린다.
+    vids = [n[:-4] + ".mp4" if n[:-4] + ".mp4" in vids else n for n in names]
+    use_video = any(n.endswith(".mp4") for n in vids)
 
     todo = []
     if TOKEN and USER:
@@ -221,7 +223,7 @@ def main(dry=False):
     else:
         log("[스레드] THREADS_TOKEN 없음 — 건너뜀")
 
-    log(f"{day}일차 · {len(names)}장 · {'영상' if use_video else '이미지'} · {caption.splitlines()[0]}")
+    log(f"{day}일차 · {len(names)}장 · {'영상 ' + str(sum(n.endswith('.mp4') for n in vids)) + '장 포함' if use_video else '이미지'} · {caption.splitlines()[0]}")
     if dry:
         log("올릴 곳: " + (", ".join(n for n, _ in todo) or "없음"))
         for n in (vids if use_video else names):
