@@ -36,8 +36,11 @@ JST = datetime.timezone(datetime.timedelta(hours=9))
 START = datetime.date(2026, 10, 13)      # 1일차 = 카페
 LAST = 31
 
-IG_CTA = "韓国語、一人で躓いている方へ\n韓国ソーシャルサロン「muwi」で\n仲間と一緒に続けていきましょう👇\nプロフィールのリンクからチェックしてみてください☺️"
-TH_CTA = "韓国語、一人で躓いている方へ\n韓国ソーシャルサロン「muwi」で\n仲間と一緒に続けていきましょう👇\nhttps://lp.muwi-life.com/"
+IG_CTA_OLD = "韓国語、一人で躓いている方へ\n韓国ソーシャルサロン「muwi」で\n仲間と一緒に続けていきましょう👇\nプロフィールのリンクからチェックしてみてください☺️"
+TH_CTA_OLD = "韓国語、一人で躓いている方へ\n韓国ソーシャルサロン「muwi」で\n仲間と一緒に続けていきましょう👇\nhttps://lp.muwi-life.com/"
+# 2026-11-17 사용자 확정 CTA (11/18 편부터). 스레드는 링크가 걸리므로 마지막 줄만 살롱 주소로
+IG_CTA = "韓国語、一人で躓いている方へ\n仲間と一緒に続けていきましょう👇\n→ プロフィールのリンクから🔗"
+TH_CTA = "韓国語、一人で躓いている方へ\n仲間と一緒に続けていきましょう👇\n→ https://lp.muwi-life.com/"
 
 
 class ApiError(Exception):
@@ -134,7 +137,7 @@ def post_instagram(day, names, vids, caption, use_video):
 # ── 스레드 ───────────────────────────────────────────────────────
 def threads_text(caption):
     """인스타 캡션을 스레드용으로: CTA 는 링크로(스레드는 링크가 걸린다), 해시태그는 하나만, 500자 이내."""
-    t = caption.replace(IG_CTA, TH_CTA)
+    t = caption.replace(IG_CTA_OLD, TH_CTA_OLD).replace(IG_CTA, TH_CTA)
     lines = t.rstrip().splitlines()
     if lines and lines[-1].lstrip().startswith("#"):
         lines = lines[:-1]
